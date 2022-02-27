@@ -24,15 +24,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.delegate = self
         tableView.dataSource = self
         
+        // ただの定数と共通関数のテスト
         let const = Const()
         print("=========== １共通変数 ==")
         print(const.mid)
-        
 //        Util.printer("印刷してください")
         Util.prt()
         Util.printer(str:"aaa")
-        
-        
         
     }
         
